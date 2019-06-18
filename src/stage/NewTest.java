@@ -31,8 +31,7 @@ public class NewTest {
 		
 		driver.get("https://web.staging.bro4u.com/");
 		driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
-		/*driver.manage().deleteAllCookies();
-		driver.manage().window().maximize();*/
+		
 	}
 
 	@Test(priority=1)
@@ -53,8 +52,7 @@ public class NewTest {
 		selectlocation.sendKeys(Keys.DOWN);
 		selectlocation.sendKeys(Keys.RETURN);*/
 		Thread.sleep(1000);
-		
-		
+			
 	}
 	
 	@Test(priority=2)
@@ -62,8 +60,6 @@ public class NewTest {
 		
 		driver.findElement(By.xpath("//img[@alt='Electricians']")).click();
 		Thread.sleep(1000);
-		
-	
     
 	}
 	
@@ -79,8 +75,7 @@ public class NewTest {
 		driver.findElement(By.xpath("//md-select[@name='service_time']")).click();
 		List<WebElement>selecttime = driver.findElements(By.xpath("//md-option[@ng-if='$ctrl.timeSlots && $ctrl.timeSlots.length']"));
 		selecttime.get(3).click();
-		Thread.sleep(1000);
-		
+		Thread.sleep(1000);	
 		
 	}
 	
@@ -96,7 +91,6 @@ public class NewTest {
 		List<WebElement>BookNowButton = driver.findElements(By.xpath("//button[contains(text(),'Book Now')]"));
 		BookNowButton.get(0).click();
 		Thread.sleep(2500);
-	
 	}
 	
 	@Test(priority=5)
@@ -108,16 +102,6 @@ public class NewTest {
 
 		
 	}
-	/*@Test(priority=6)
-	public void otpfield() throws InterruptedException{
-		driver.findElement(By.xpath("//input[@name='otpEntered']")).click();
-		Thread.sleep(6000);
-		driver.findElement(By.xpath("//button[contains(text(),'Confirm booking')]")).click();
-	}
 	
-	@AfterTest
-	public void teardown(){
-		driver.quit();
-	}*/
 	
 }

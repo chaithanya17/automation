@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22483" started-at="2019-06-18T08:39:21Z" finished-at="2019-06-18T08:39:43Z">
+  <suite name="Suite" duration-ms="20344" started-at="2019-06-18T09:05:24Z" finished-at="2019-06-18T09:05:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22483" started-at="2019-06-18T08:39:21Z" finished-at="2019-06-18T08:39:43Z">
+    <test name="Test" duration-ms="20344" started-at="2019-06-18T09:05:24Z" finished-at="2019-06-18T09:05:45Z">
       <class name="stage.NewTest">
-        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@e25b2fe]" name="webpage" is-config="true" duration-ms="6076" started-at="2019-06-18T08:39:21Z" finished-at="2019-06-18T08:39:27Z">
+        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@e25b2fe]" name="webpage" is-config="true" duration-ms="5388" started-at="2019-06-18T09:05:24Z" finished-at="2019-06-18T09:05:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webpage -->
-        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.NewTest@e25b2fe]" name="set_location" duration-ms="4785" started-at="2019-06-18T08:39:27Z" finished-at="2019-06-18T08:39:31Z">
+        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.NewTest@e25b2fe]" name="set_location" duration-ms="4661" started-at="2019-06-18T09:05:30Z" finished-at="2019-06-18T09:05:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_location -->
-        <test-method status="PASS" signature="select_category()[pri:2, instance:stage.NewTest@e25b2fe]" name="select_category" duration-ms="1124" started-at="2019-06-18T08:39:31Z" finished-at="2019-06-18T08:39:33Z">
+        <test-method status="PASS" signature="select_category()[pri:2, instance:stage.NewTest@e25b2fe]" name="select_category" duration-ms="1114" started-at="2019-06-18T09:05:34Z" finished-at="2019-06-18T09:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_category -->
-        <test-method status="PASS" signature="select_requirement()[pri:3, instance:stage.NewTest@e25b2fe]" name="select_requirement" duration-ms="5962" started-at="2019-06-18T08:39:33Z" finished-at="2019-06-18T08:39:39Z">
+        <test-method status="PASS" signature="select_requirement()[pri:3, instance:stage.NewTest@e25b2fe]" name="select_requirement" duration-ms="4721" started-at="2019-06-18T09:05:35Z" finished-at="2019-06-18T09:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_requirement -->
-        <test-method status="PASS" signature="contact_details()[pri:4, instance:stage.NewTest@e25b2fe]" name="contact_details" duration-ms="4384" started-at="2019-06-18T08:39:39Z" finished-at="2019-06-18T08:39:43Z">
+        <test-method status="PASS" signature="contact_details()[pri:4, instance:stage.NewTest@e25b2fe]" name="contact_details" duration-ms="4341" started-at="2019-06-18T09:05:40Z" finished-at="2019-06-18T09:05:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact_details -->
-        <test-method status="PASS" signature="orderReview()[pri:5, instance:stage.NewTest@e25b2fe]" name="orderReview" duration-ms="117" started-at="2019-06-18T08:39:43Z" finished-at="2019-06-18T08:39:43Z">
+        <test-method status="PASS" signature="orderReview()[pri:5, instance:stage.NewTest@e25b2fe]" name="orderReview" duration-ms="82" started-at="2019-06-18T09:05:45Z" finished-at="2019-06-18T09:05:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderReview -->
