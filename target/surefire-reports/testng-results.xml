@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24204" started-at="2019-06-18T08:40:10Z" finished-at="2019-06-18T08:40:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24204" started-at="2019-06-18T08:40:10Z" finished-at="2019-06-18T08:40:35Z">
+      <class name="stage.NewTest">
+        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@62043840]" name="webpage" is-config="true" duration-ms="7210" started-at="2019-06-18T08:40:10Z" finished-at="2019-06-18T08:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webpage -->
+        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.NewTest@62043840]" name="set_location" duration-ms="4825" started-at="2019-06-18T08:40:18Z" finished-at="2019-06-18T08:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_location -->
+        <test-method status="PASS" signature="select_category()[pri:2, instance:stage.NewTest@62043840]" name="select_category" duration-ms="1182" started-at="2019-06-18T08:40:22Z" finished-at="2019-06-18T08:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_category -->
+        <test-method status="PASS" signature="select_requirement()[pri:3, instance:stage.NewTest@62043840]" name="select_requirement" duration-ms="6247" started-at="2019-06-18T08:40:24Z" finished-at="2019-06-18T08:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_requirement -->
+        <test-method status="PASS" signature="contact_details()[pri:4, instance:stage.NewTest@62043840]" name="contact_details" duration-ms="4589" started-at="2019-06-18T08:40:30Z" finished-at="2019-06-18T08:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact_details -->
+        <test-method status="PASS" signature="orderReview()[pri:5, instance:stage.NewTest@62043840]" name="orderReview" duration-ms="123" started-at="2019-06-18T08:40:34Z" finished-at="2019-06-18T08:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderReview -->
+      </class> <!-- stage.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
