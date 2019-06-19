@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="stage.NewTest">
+      <class name="stage.packageModel">
         <methods>
-          <include name="select_category"/>
-          <include name="webpage"/>
-          <include name="teardown"/>
-          <include name="set_location"/>
+          <include name="setLocation"/>
+          <include name="webBrowser"/>
         </methods>
-      </class> <!-- stage.NewTest -->
+      </class> <!-- stage.packageModel -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

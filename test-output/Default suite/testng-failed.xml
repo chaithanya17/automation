@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stage.NewTest">
+      <class name="stage.packageModel">
         <methods>
-          <include name="contact_details"/>
-          <include name="select_category"/>
-          <include name="orderReview"/>
-          <include name="select_requirement"/>
-          <include name="set_location"/>
+          <include name="orderReviewScreen"/>
+          <include name="webBrowser"/>
         </methods>
-      </class> <!-- stage.NewTest -->
+      </class> <!-- stage.packageModel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

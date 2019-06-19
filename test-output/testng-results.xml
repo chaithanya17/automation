@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20344" started-at="2019-06-18T09:05:24Z" finished-at="2019-06-18T09:05:45Z">
+  <suite name="Default suite" duration-ms="17789" started-at="2019-06-19T08:16:47Z" finished-at="2019-06-19T08:17:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20344" started-at="2019-06-18T09:05:24Z" finished-at="2019-06-18T09:05:45Z">
-      <class name="stage.NewTest">
-        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@e25b2fe]" name="webpage" is-config="true" duration-ms="5388" started-at="2019-06-18T09:05:24Z" finished-at="2019-06-18T09:05:30Z">
+    <test name="Default test" duration-ms="17789" started-at="2019-06-19T08:16:47Z" finished-at="2019-06-19T08:17:04Z">
+      <class name="stage.packageModel">
+        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.packageModel@e25b2fe]" name="webBrowser" is-config="true" duration-ms="4842" started-at="2019-06-19T08:16:47Z" finished-at="2019-06-19T08:16:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webpage -->
-        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.NewTest@e25b2fe]" name="set_location" duration-ms="4661" started-at="2019-06-18T09:05:30Z" finished-at="2019-06-18T09:05:34Z">
+        </test-method> <!-- webBrowser -->
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.packageModel@e25b2fe]" name="setLocation" duration-ms="4138" started-at="2019-06-19T08:16:51Z" finished-at="2019-06-19T08:16:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- set_location -->
-        <test-method status="PASS" signature="select_category()[pri:2, instance:stage.NewTest@e25b2fe]" name="select_category" duration-ms="1114" started-at="2019-06-18T09:05:34Z" finished-at="2019-06-18T09:05:35Z">
+        </test-method> <!-- setLocation -->
+        <test-method status="PASS" signature="searchForSofaCleaning()[pri:2, instance:stage.packageModel@e25b2fe]" name="searchForSofaCleaning" duration-ms="4864" started-at="2019-06-19T08:16:56Z" finished-at="2019-06-19T08:17:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- select_category -->
-        <test-method status="PASS" signature="select_requirement()[pri:3, instance:stage.NewTest@e25b2fe]" name="select_requirement" duration-ms="4721" started-at="2019-06-18T09:05:35Z" finished-at="2019-06-18T09:05:40Z">
+        </test-method> <!-- searchForSofaCleaning -->
+        <test-method status="PASS" signature="requirementScreen()[pri:3, instance:stage.packageModel@e25b2fe]" name="requirementScreen" duration-ms="2637" started-at="2019-06-19T08:17:00Z" finished-at="2019-06-19T08:17:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- select_requirement -->
-        <test-method status="PASS" signature="contact_details()[pri:4, instance:stage.NewTest@e25b2fe]" name="contact_details" duration-ms="4341" started-at="2019-06-18T09:05:40Z" finished-at="2019-06-18T09:05:45Z">
+        </test-method> <!-- requirementScreen -->
+        <test-method status="PASS" signature="vendorListScreen()[pri:4, instance:stage.packageModel@e25b2fe]" name="vendorListScreen" duration-ms="1213" started-at="2019-06-19T08:17:03Z" finished-at="2019-06-19T08:17:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contact_details -->
-        <test-method status="PASS" signature="orderReview()[pri:5, instance:stage.NewTest@e25b2fe]" name="orderReview" duration-ms="82" started-at="2019-06-18T09:05:45Z" finished-at="2019-06-18T09:05:45Z">
+        </test-method> <!-- vendorListScreen -->
+        <test-method status="PASS" signature="orderReviewScreen()[pri:5, instance:stage.packageModel@e25b2fe]" name="orderReviewScreen" duration-ms="58" started-at="2019-06-19T08:17:04Z" finished-at="2019-06-19T08:17:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderReview -->
-      </class> <!-- stage.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- orderReviewScreen -->
+      </class> <!-- stage.packageModel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

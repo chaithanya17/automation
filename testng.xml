@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="stage.NewTest"/>
+      <class name="stage.packageModel"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
