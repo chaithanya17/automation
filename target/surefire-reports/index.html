@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,16 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="stage.productModel" hash-for-method="setLocation">setLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="stage.contactModel" hash-for-method="setLocation">setLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="stage.packageModel" hash-for-method="setLocation">setLocation</a> <!-- method navigator-link -->
@@ -140,6 +150,36 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">stage.contactModel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setLocation">
+                  </a> <!-- setLocation -->
+                  <span class="method-name">setLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stage.productModel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setLocation">
+                  </a> <!-- setLocation -->
+                  <span class="method-name">setLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">stage.NewTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -166,6 +206,8 @@
     &lt;classes&gt;
       &lt;class name=&quot;stage.NewTest&quot;/&gt;
       &lt;class name=&quot;stage.packageModel&quot;/&gt;
+      &lt;class name=&quot;stage.contactModel&quot;/&gt;
+      &lt;class name=&quot;stage.productModel&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -179,7 +221,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,20 +247,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'set_location')
-data.setCell(0, 2, 'stage.NewTest')
-data.setCell(0, 3, 4613);
+data.setCell(0, 1, 'setLocation')
+data.setCell(0, 2, 'stage.contactModel')
+data.setCell(0, 3, 5142);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'setLocation')
-data.setCell(1, 2, 'stage.packageModel')
-data.setCell(1, 3, 4114);
+data.setCell(1, 2, 'stage.productModel')
+data.setCell(1, 3, 5130);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'setLocation')
+data.setCell(2, 2, 'stage.packageModel')
+data.setCell(2, 3, 4887);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'set_location')
+data.setCell(3, 2, 'stage.NewTest')
+data.setCell(3, 3, 4218);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -251,24 +301,52 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">stage.contactModel</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">webPage</span>
+                <span class="method-start">5259 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">stage.packageModel</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">webBrowser</span>
-                <span class="method-start">5599 ms</span>
+                <span class="method-start">8408 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stage.productModel</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">webPage</span>
+                <span class="method-start">11919 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">stage.NewTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">set_location</span>
-                <span class="method-start">10057 ms</span>
+                <span class="method-start">16172 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">stage.packageModel</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">setLocation</span>
-                <span class="method-start">14672 ms</span>
+                <span class="method-start">20399 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stage.contactModel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setLocation</span>
+                <span class="method-start">25288 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stage.productModel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setLocation</span>
+                <span class="method-start">30433 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

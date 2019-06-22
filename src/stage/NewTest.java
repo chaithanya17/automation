@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 //import org.junit.BeforeClass;
 //import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,17 +42,18 @@ public class NewTest {
 		driver.findElement(By.xpath("//label[contains(text(),'Location ?')]")).click();
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//label[contains(text(),'Bangalore')]")).click();
-		WebElement selectpincode = driver.findElement(By.xpath("//input[@ng-model='ctrl.pinCode']"));
-		selectpincode.sendKeys("560010");
-		Thread.sleep(500);
-		driver.findElement(By.xpath("//button[contains(text(),'SET LOCATION')]")).click();
-		Thread.sleep(1000);
-		/*WebElement selectlocation = driver.findElement(By.xpath("//input[@ng-model='ctrl.googlePlacesObject']"));
+		WebElement selectlocation = driver.findElement(By.xpath("//input[@ng-model='ctrl.googlePlacesObject']"));
 		selectlocation.sendKeys("rajajinagar");
 		Thread.sleep(1000);
 		selectlocation.sendKeys(Keys.DOWN);
-		selectlocation.sendKeys(Keys.RETURN);*/
+		selectlocation.sendKeys(Keys.RETURN);
 		Thread.sleep(1000);
+		
+		/*WebElement selectpincode = driver.findElement(By.xpath("//input[@ng-model='ctrl.pinCode']"));
+		selectpincode.sendKeys("560010");
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//button[contains(text(),'SET LOCATION')]")).click();
+		Thread.sleep(1000);*/
 			
 	}
 	
@@ -65,7 +67,6 @@ public class NewTest {
 	
 	@Test(priority=3)
 	public void select_requirement() throws InterruptedException{
-		
 		
 		driver.findElement(By.xpath("//button[@class='md-datepicker-triangle-button md-icon-button md-button']")).click();
 		List<WebElement>CalenderDateSel = driver.findElements(By.xpath("//span[@class='md-calendar-date-selection-indicator']"));
@@ -81,7 +82,6 @@ public class NewTest {
 	
 	@Test(priority=4)
 	public void contact_details() throws InterruptedException{
-		
 		
 		driver.findElement(By.name("name")).sendKeys("Chaithanya");
 		driver.findElement(By.name("streetName")).sendKeys("bro4u, Rajajinagar");

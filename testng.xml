@@ -5,6 +5,8 @@
     <classes>
       <class name="stage.NewTest"/>
       <class name="stage.packageModel"/>
+      <class name="stage.contactModel"/>
+      <class name="stage.productModel"/>
       
     </classes>
   </test> <!-- Test -->

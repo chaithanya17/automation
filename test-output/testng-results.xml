@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17789" started-at="2019-06-19T08:16:47Z" finished-at="2019-06-19T08:17:04Z">
+  <suite name="Default suite" duration-ms="24327" started-at="2019-06-22T11:50:16Z" finished-at="2019-06-22T11:50:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17789" started-at="2019-06-19T08:16:47Z" finished-at="2019-06-19T08:17:04Z">
-      <class name="stage.packageModel">
-        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.packageModel@e25b2fe]" name="webBrowser" is-config="true" duration-ms="4842" started-at="2019-06-19T08:16:47Z" finished-at="2019-06-19T08:16:51Z">
+    <test name="Default test" duration-ms="24327" started-at="2019-06-22T11:50:16Z" finished-at="2019-06-22T11:50:41Z">
+      <class name="stage.productModel">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.productModel@15c43bd9]" name="webPage" is-config="true" duration-ms="5647" started-at="2019-06-22T11:50:16Z" finished-at="2019-06-22T11:50:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webBrowser -->
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.packageModel@e25b2fe]" name="setLocation" duration-ms="4138" started-at="2019-06-19T08:16:51Z" finished-at="2019-06-19T08:16:56Z">
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.productModel@15c43bd9]" name="setLocation" duration-ms="4689" started-at="2019-06-22T11:50:22Z" finished-at="2019-06-22T11:50:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method status="PASS" signature="searchForSofaCleaning()[pri:2, instance:stage.packageModel@e25b2fe]" name="searchForSofaCleaning" duration-ms="4864" started-at="2019-06-19T08:16:56Z" finished-at="2019-06-19T08:17:00Z">
+        <test-method status="PASS" signature="searchCakeDelivery()[pri:2, instance:stage.productModel@15c43bd9]" name="searchCakeDelivery" duration-ms="6722" started-at="2019-06-22T11:50:27Z" finished-at="2019-06-22T11:50:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchForSofaCleaning -->
-        <test-method status="PASS" signature="requirementScreen()[pri:3, instance:stage.packageModel@e25b2fe]" name="requirementScreen" duration-ms="2637" started-at="2019-06-19T08:17:00Z" finished-at="2019-06-19T08:17:03Z">
+        </test-method> <!-- searchCakeDelivery -->
+        <test-method status="PASS" signature="requirementPage()[pri:3, instance:stage.productModel@15c43bd9]" name="requirementPage" duration-ms="2392" started-at="2019-06-22T11:50:33Z" finished-at="2019-06-22T11:50:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requirementScreen -->
-        <test-method status="PASS" signature="vendorListScreen()[pri:4, instance:stage.packageModel@e25b2fe]" name="vendorListScreen" duration-ms="1213" started-at="2019-06-19T08:17:03Z" finished-at="2019-06-19T08:17:04Z">
+        </test-method> <!-- requirementPage -->
+        <test-method status="PASS" signature="productSelection()[pri:4, instance:stage.productModel@15c43bd9]" name="productSelection" duration-ms="1145" started-at="2019-06-22T11:50:36Z" finished-at="2019-06-22T11:50:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorListScreen -->
-        <test-method status="PASS" signature="orderReviewScreen()[pri:5, instance:stage.packageModel@e25b2fe]" name="orderReviewScreen" duration-ms="58" started-at="2019-06-19T08:17:04Z" finished-at="2019-06-19T08:17:04Z">
+        </test-method> <!-- productSelection -->
+        <test-method status="PASS" signature="quantityOfProduct()[pri:5, instance:stage.productModel@15c43bd9]" name="quantityOfProduct" duration-ms="3619" started-at="2019-06-22T11:50:37Z" finished-at="2019-06-22T11:50:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderReviewScreen -->
-      </class> <!-- stage.packageModel -->
+        </test-method> <!-- quantityOfProduct -->
+        <test-method status="PASS" signature="orderreview()[pri:6, instance:stage.productModel@15c43bd9]" name="orderreview" duration-ms="49" started-at="2019-06-22T11:50:41Z" finished-at="2019-06-22T11:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderreview -->
+      </class> <!-- stage.productModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
