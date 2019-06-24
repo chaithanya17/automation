@@ -1,47 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35566" started-at="2019-06-22T11:51:17Z" finished-at="2019-06-22T11:51:53Z">
+  <suite name="Suite" duration-ms="50353" started-at="2019-06-24T07:12:27Z" finished-at="2019-06-24T07:13:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="35566" started-at="2019-06-22T11:51:17Z" finished-at="2019-06-22T11:51:53Z">
+    <test name="Test" duration-ms="50353" started-at="2019-06-24T07:12:27Z" finished-at="2019-06-24T07:13:18Z">
+      <class name="stage.cartModel">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.cartModel@614c5515]" name="setLocation" duration-ms="5163" started-at="2019-06-24T07:13:12Z" finished-at="2019-06-24T07:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLocation -->
+      </class> <!-- stage.cartModel -->
       <class name="stage.productModel">
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.productModel@2ef9b8bc]" name="setLocation" duration-ms="5130" started-at="2019-06-22T11:51:48Z" finished-at="2019-06-22T11:51:53Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.productModel@6fb554cc]" name="setLocation" duration-ms="4822" started-at="2019-06-24T07:13:08Z" finished-at="2019-06-24T07:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
       </class> <!-- stage.productModel -->
       <class name="stage.packageModel">
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.packageModel@62043840]" name="setLocation" duration-ms="4887" started-at="2019-06-22T11:51:38Z" finished-at="2019-06-22T11:51:42Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.packageModel@3f2a3a5]" name="setLocation" duration-ms="4743" started-at="2019-06-24T07:12:58Z" finished-at="2019-06-24T07:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
       </class> <!-- stage.packageModel -->
       <class name="stage.NewTest">
-        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@246ae04d]" name="webpage" is-config="true" duration-ms="5259" started-at="2019-06-22T11:51:17Z" finished-at="2019-06-22T11:51:22Z">
+        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@60addb54]" name="webpage" is-config="true" duration-ms="6395" started-at="2019-06-24T07:12:27Z" finished-at="2019-06-24T07:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webpage -->
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.contactModel@5315b42e]" name="webPage" is-config="true" duration-ms="3149" started-at="2019-06-22T11:51:22Z" finished-at="2019-06-22T11:51:26Z">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.cartModel@614c5515]" name="webPage" is-config="true" duration-ms="5322" started-at="2019-06-24T07:12:34Z" finished-at="2019-06-24T07:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.packageModel@62043840]" name="webBrowser" is-config="true" duration-ms="3510" started-at="2019-06-22T11:51:26Z" finished-at="2019-06-22T11:51:29Z">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.contactModel@4cb2c100]" name="webPage" is-config="true" duration-ms="5376" started-at="2019-06-24T07:12:39Z" finished-at="2019-06-24T07:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.packageModel@3f2a3a5]" name="webBrowser" is-config="true" duration-ms="5276" started-at="2019-06-24T07:12:44Z" finished-at="2019-06-24T07:12:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webBrowser -->
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.productModel@2ef9b8bc]" name="webPage" is-config="true" duration-ms="4231" started-at="2019-06-22T11:51:29Z" finished-at="2019-06-22T11:51:33Z">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.productModel@6fb554cc]" name="webPage" is-config="true" duration-ms="3884" started-at="2019-06-24T07:12:50Z" finished-at="2019-06-24T07:12:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.NewTest@246ae04d]" name="set_location" duration-ms="4218" started-at="2019-06-22T11:51:33Z" finished-at="2019-06-22T11:51:38Z">
+        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.NewTest@60addb54]" name="set_location" duration-ms="4470" started-at="2019-06-24T07:12:54Z" finished-at="2019-06-24T07:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_location -->
       </class> <!-- stage.NewTest -->
       <class name="stage.contactModel">
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.contactModel@5315b42e]" name="setLocation" duration-ms="5142" started-at="2019-06-22T11:51:42Z" finished-at="2019-06-22T11:51:48Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.contactModel@4cb2c100]" name="setLocation" duration-ms="4858" started-at="2019-06-24T07:13:03Z" finished-at="2019-06-24T07:13:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
