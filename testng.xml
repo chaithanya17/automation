@@ -8,6 +8,7 @@
       <class name="stage.contactModel"/>
       <class name="stage.productModel"/>
       <class name="stage.cartModel"/>
+      <class name="stage.msiteQuickModel"/>
       
     </classes>
   </test> <!-- Test -->

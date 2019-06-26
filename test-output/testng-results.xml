@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27122" started-at="2019-06-24T07:05:34Z" finished-at="2019-06-24T07:06:01Z">
+  <suite name="Default suite" duration-ms="24483" started-at="2019-06-26T12:32:00Z" finished-at="2019-06-26T12:32:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27122" started-at="2019-06-24T07:05:34Z" finished-at="2019-06-24T07:06:01Z">
-      <class name="stage.cartModel">
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.cartModel@15c43bd9]" name="webPage" is-config="true" duration-ms="6023" started-at="2019-06-24T07:05:34Z" finished-at="2019-06-24T07:05:40Z">
+    <test name="Default test" duration-ms="24483" started-at="2019-06-26T12:32:00Z" finished-at="2019-06-26T12:32:25Z">
+      <class name="stage.msiteQuickModel">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteQuickModel@e25b2fe]" name="webPage" is-config="true" duration-ms="5451" started-at="2019-06-26T12:32:00Z" finished-at="2019-06-26T12:32:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.cartModel@15c43bd9]" name="setLocation" duration-ms="5081" started-at="2019-06-24T07:05:40Z" finished-at="2019-06-24T07:05:45Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteQuickModel@e25b2fe]" name="setLocation" duration-ms="5777" started-at="2019-06-26T12:32:05Z" finished-at="2019-06-26T12:32:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method status="PASS" signature="searchBeautyServices()[pri:2, instance:stage.cartModel@15c43bd9]" name="searchBeautyServices" duration-ms="6572" started-at="2019-06-24T07:05:45Z" finished-at="2019-06-24T07:05:51Z">
+        <test-method status="PASS" signature="electriciansCategory()[pri:2, instance:stage.msiteQuickModel@e25b2fe]" name="electriciansCategory" duration-ms="3502" started-at="2019-06-26T12:32:11Z" finished-at="2019-06-26T12:32:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchBeautyServices -->
-        <test-method status="PASS" signature="intermediateScreen()[pri:3, instance:stage.cartModel@15c43bd9]" name="intermediateScreen" duration-ms="2965" started-at="2019-06-24T07:05:51Z" finished-at="2019-06-24T07:05:54Z">
+        </test-method> <!-- electriciansCategory -->
+        <test-method status="PASS" signature="formFillInterScreen()[pri:3, instance:stage.msiteQuickModel@e25b2fe]" name="formFillInterScreen" duration-ms="4535" started-at="2019-06-26T12:32:15Z" finished-at="2019-06-26T12:32:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intermediateScreen -->
-        <test-method status="PASS" signature="requirementScreen()[pri:4, instance:stage.cartModel@15c43bd9]" name="requirementScreen" duration-ms="1631" started-at="2019-06-24T07:05:54Z" finished-at="2019-06-24T07:05:56Z">
+        </test-method> <!-- formFillInterScreen -->
+        <test-method status="PASS" signature="contactDetails()[pri:4, instance:stage.msiteQuickModel@e25b2fe]" name="contactDetails" duration-ms="2614" started-at="2019-06-26T12:32:19Z" finished-at="2019-06-26T12:32:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requirementScreen -->
-        <test-method status="PASS" signature="vendorlistScreen()[pri:5, instance:stage.cartModel@15c43bd9]" name="vendorlistScreen" duration-ms="1136" started-at="2019-06-24T07:05:56Z" finished-at="2019-06-24T07:05:57Z">
+        </test-method> <!-- contactDetails -->
+        <test-method status="PASS" signature="orderReviewScreen()[pri:5, instance:stage.msiteQuickModel@e25b2fe]" name="orderReviewScreen" duration-ms="2559" started-at="2019-06-26T12:32:22Z" finished-at="2019-06-26T12:32:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorlistScreen -->
-        <test-method status="PASS" signature="selectionOfMenu()[pri:6, instance:stage.cartModel@15c43bd9]" name="selectionOfMenu" duration-ms="3595" started-at="2019-06-24T07:05:57Z" finished-at="2019-06-24T07:06:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectionOfMenu -->
-        <test-method status="PASS" signature="orderreview()[pri:7, instance:stage.cartModel@15c43bd9]" name="orderreview" duration-ms="54" started-at="2019-06-24T07:06:01Z" finished-at="2019-06-24T07:06:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderreview -->
-      </class> <!-- stage.cartModel -->
+        </test-method> <!-- orderReviewScreen -->
+      </class> <!-- stage.msiteQuickModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
