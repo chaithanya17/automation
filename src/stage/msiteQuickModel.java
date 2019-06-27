@@ -23,20 +23,6 @@ public class msiteQuickModel {
   public void webPage() {
 	  
 	  System.setProperty("webdriver.chrome.driver","driver/chromedriver");
-	 /* ChromeOptions options = new ChromeOptions();
-      options.addArguments("headless");
-      options.addArguments("window-size=1200x600");
-	  //driver=new ChromeDriver(options);
-		
-		Map<String, String> mobileEmulation = new HashMap<String, String>();
-		mobileEmulation.put("deviceName", "Galaxy S5");
-		Map<String, Object> chromeOptions = new HashMap<String, Object>();
-		chromeOptions.put("mobileEmulation", mobileEmulation);
-		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-		capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-		driver = new ChromeDriver(capabilities); */
-		//driver=new ChromeDriver(options);
-	  
 	  ChromeOptions options = new ChromeOptions();
 	  options.addArguments("headless");
       options.addArguments("window-size=1200x600");
@@ -46,8 +32,7 @@ public class msiteQuickModel {
 	  driver = new ChromeDriver(options);
 	  driver.get("https://m.staging.bro4u.com/");
 	  driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
-		
-		//WebDriver driver = new ChromeDriver(capabilities);  	  
+		  	  
   }
   	@Test(priority=1)
   	public void setLocation() throws InterruptedException{
@@ -78,7 +63,6 @@ public class msiteQuickModel {
 		selectservice.get(0).click();
 		Thread.sleep(1000);
 		//driver.findElement(By.xpath("//button[@class='md-datepicker-triangle-button md-icon-button md-button']")).click();
-		//driver.findElement(By.id("input_5")).click();
   }
   	@Test(priority=3)
   	public void formFillInterScreen() throws InterruptedException{

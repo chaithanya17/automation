@@ -9,6 +9,9 @@
       <class name="stage.productModel"/>
       <class name="stage.cartModel"/>
       <class name="stage.msiteQuickModel"/>
+      <class name="stage.msitePackageModel"/>
+      <class name="stage.msiteContactModel"/>
+      <class name="stage.msiteProductModel"/>
       
     </classes>
   </test> <!-- Test -->

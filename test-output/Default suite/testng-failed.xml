@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stage.msiteQuickModel">
+      <class name="stage.msitePackageModel">
         <methods>
-          <include name="electriciansCategory"/>
+          <include name="webPage"/>
+          <include name="orderReviewScreen"/>
         </methods>
-      </class> <!-- stage.msiteQuickModel -->
+      </class> <!-- stage.msitePackageModel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24483" started-at="2019-06-26T12:32:00Z" finished-at="2019-06-26T12:32:25Z">
+  <suite name="Default suite" duration-ms="24407" started-at="2019-06-27T12:00:56Z" finished-at="2019-06-27T12:01:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24483" started-at="2019-06-26T12:32:00Z" finished-at="2019-06-26T12:32:25Z">
-      <class name="stage.msiteQuickModel">
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteQuickModel@e25b2fe]" name="webPage" is-config="true" duration-ms="5451" started-at="2019-06-26T12:32:00Z" finished-at="2019-06-26T12:32:05Z">
+    <test name="Default test" duration-ms="24407" started-at="2019-06-27T12:00:56Z" finished-at="2019-06-27T12:01:21Z">
+      <class name="stage.msiteProductModel">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteProductModel@e25b2fe]" name="webPage" is-config="true" duration-ms="7480" started-at="2019-06-27T12:00:56Z" finished-at="2019-06-27T12:01:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteQuickModel@e25b2fe]" name="setLocation" duration-ms="5777" started-at="2019-06-26T12:32:05Z" finished-at="2019-06-26T12:32:11Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteProductModel@e25b2fe]" name="setLocation" duration-ms="6181" started-at="2019-06-27T12:01:04Z" finished-at="2019-06-27T12:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method status="PASS" signature="electriciansCategory()[pri:2, instance:stage.msiteQuickModel@e25b2fe]" name="electriciansCategory" duration-ms="3502" started-at="2019-06-26T12:32:11Z" finished-at="2019-06-26T12:32:15Z">
+        <test-method status="PASS" signature="cakeDelivery()[pri:2, instance:stage.msiteProductModel@e25b2fe]" name="cakeDelivery" duration-ms="4582" started-at="2019-06-27T12:01:10Z" finished-at="2019-06-27T12:01:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- electriciansCategory -->
-        <test-method status="PASS" signature="formFillInterScreen()[pri:3, instance:stage.msiteQuickModel@e25b2fe]" name="formFillInterScreen" duration-ms="4535" started-at="2019-06-26T12:32:15Z" finished-at="2019-06-26T12:32:19Z">
+        </test-method> <!-- cakeDelivery -->
+        <test-method status="PASS" signature="requirementScreen()[pri:3, instance:stage.msiteProductModel@e25b2fe]" name="requirementScreen" duration-ms="2684" started-at="2019-06-27T12:01:15Z" finished-at="2019-06-27T12:01:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formFillInterScreen -->
-        <test-method status="PASS" signature="contactDetails()[pri:4, instance:stage.msiteQuickModel@e25b2fe]" name="contactDetails" duration-ms="2614" started-at="2019-06-26T12:32:19Z" finished-at="2019-06-26T12:32:22Z">
+        </test-method> <!-- requirementScreen -->
+        <test-method status="PASS" signature="productSelection()[pri:4, instance:stage.msiteProductModel@e25b2fe]" name="productSelection" duration-ms="1244" started-at="2019-06-27T12:01:17Z" finished-at="2019-06-27T12:01:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactDetails -->
-        <test-method status="PASS" signature="orderReviewScreen()[pri:5, instance:stage.msiteQuickModel@e25b2fe]" name="orderReviewScreen" duration-ms="2559" started-at="2019-06-26T12:32:22Z" finished-at="2019-06-26T12:32:24Z">
+        </test-method> <!-- productSelection -->
+        <test-method status="PASS" signature="quatitySelection()[pri:5, instance:stage.msiteProductModel@e25b2fe]" name="quatitySelection" duration-ms="2105" started-at="2019-06-27T12:01:19Z" finished-at="2019-06-27T12:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quatitySelection -->
+        <test-method status="PASS" signature="orderReviewScreen()[pri:6, instance:stage.msiteProductModel@e25b2fe]" name="orderReviewScreen" duration-ms="67" started-at="2019-06-27T12:01:21Z" finished-at="2019-06-27T12:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderReviewScreen -->
-      </class> <!-- stage.msiteQuickModel -->
+      </class> <!-- stage.msiteProductModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
