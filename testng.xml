@@ -12,6 +12,7 @@
       <class name="stage.msitePackageModel"/>
       <class name="stage.msiteContactModel"/>
       <class name="stage.msiteProductModel"/>
+      <class name="stage.msiteCartModel"/>
       
     </classes>
   </test> <!-- Test -->

@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24407" started-at="2019-06-27T12:00:56Z" finished-at="2019-06-27T12:01:21Z">
+  <suite name="Default suite" duration-ms="24577" started-at="2019-06-28T04:36:20Z" finished-at="2019-06-28T04:36:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24407" started-at="2019-06-27T12:00:56Z" finished-at="2019-06-27T12:01:21Z">
-      <class name="stage.msiteProductModel">
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteProductModel@e25b2fe]" name="webPage" is-config="true" duration-ms="7480" started-at="2019-06-27T12:00:56Z" finished-at="2019-06-27T12:01:04Z">
+    <test name="Default test" duration-ms="24577" started-at="2019-06-28T04:36:20Z" finished-at="2019-06-28T04:36:45Z">
+      <class name="stage.msiteCartModel">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteCartModel@e25b2fe]" name="webPage" is-config="true" duration-ms="4773" started-at="2019-06-28T04:36:20Z" finished-at="2019-06-28T04:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteProductModel@e25b2fe]" name="setLocation" duration-ms="6181" started-at="2019-06-27T12:01:04Z" finished-at="2019-06-27T12:01:10Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteCartModel@e25b2fe]" name="setLocation" duration-ms="5781" started-at="2019-06-28T04:36:25Z" finished-at="2019-06-28T04:36:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method status="PASS" signature="cakeDelivery()[pri:2, instance:stage.msiteProductModel@e25b2fe]" name="cakeDelivery" duration-ms="4582" started-at="2019-06-27T12:01:10Z" finished-at="2019-06-27T12:01:15Z">
+        <test-method status="PASS" signature="beautyServices()[pri:2, instance:stage.msiteCartModel@e25b2fe]" name="beautyServices" duration-ms="4084" started-at="2019-06-28T04:36:31Z" finished-at="2019-06-28T04:36:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cakeDelivery -->
-        <test-method status="PASS" signature="requirementScreen()[pri:3, instance:stage.msiteProductModel@e25b2fe]" name="requirementScreen" duration-ms="2684" started-at="2019-06-27T12:01:15Z" finished-at="2019-06-27T12:01:17Z">
+        </test-method> <!-- beautyServices -->
+        <test-method status="PASS" signature="intermediateScreen()[pri:3, instance:stage.msiteCartModel@e25b2fe]" name="intermediateScreen" duration-ms="2162" started-at="2019-06-28T04:36:35Z" finished-at="2019-06-28T04:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intermediateScreen -->
+        <test-method status="PASS" signature="requirementScreen()[pri:4, instance:stage.msiteCartModel@e25b2fe]" name="requirementScreen" duration-ms="1986" started-at="2019-06-28T04:36:37Z" finished-at="2019-06-28T04:36:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requirementScreen -->
-        <test-method status="PASS" signature="productSelection()[pri:4, instance:stage.msiteProductModel@e25b2fe]" name="productSelection" duration-ms="1244" started-at="2019-06-27T12:01:17Z" finished-at="2019-06-27T12:01:19Z">
+        <test-method status="PASS" signature="vendorlistScreen()[pri:5, instance:stage.msiteCartModel@e25b2fe]" name="vendorlistScreen" duration-ms="2474" started-at="2019-06-28T04:36:39Z" finished-at="2019-06-28T04:36:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productSelection -->
-        <test-method status="PASS" signature="quatitySelection()[pri:5, instance:stage.msiteProductModel@e25b2fe]" name="quatitySelection" duration-ms="2105" started-at="2019-06-27T12:01:19Z" finished-at="2019-06-27T12:01:21Z">
+        </test-method> <!-- vendorlistScreen -->
+        <test-method status="PASS" signature="menuSelection()[pri:6, instance:stage.msiteCartModel@e25b2fe]" name="menuSelection" duration-ms="3213" started-at="2019-06-28T04:36:41Z" finished-at="2019-06-28T04:36:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quatitySelection -->
-        <test-method status="PASS" signature="orderReviewScreen()[pri:6, instance:stage.msiteProductModel@e25b2fe]" name="orderReviewScreen" duration-ms="67" started-at="2019-06-27T12:01:21Z" finished-at="2019-06-27T12:01:21Z">
+        </test-method> <!-- menuSelection -->
+        <test-method status="PASS" signature="orderReviewScreen()[pri:6, instance:stage.msiteCartModel@e25b2fe]" name="orderReviewScreen" duration-ms="49" started-at="2019-06-28T04:36:45Z" finished-at="2019-06-28T04:36:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderReviewScreen -->
-      </class> <!-- stage.msiteProductModel -->
+      </class> <!-- stage.msiteCartModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
