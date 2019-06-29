@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24577" started-at="2019-06-28T04:36:20Z" finished-at="2019-06-28T04:36:45Z">
+  <suite name="Default suite" duration-ms="44126" started-at="2019-06-29T11:52:01Z" finished-at="2019-06-29T11:52:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24577" started-at="2019-06-28T04:36:20Z" finished-at="2019-06-28T04:36:45Z">
-      <class name="stage.msiteCartModel">
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteCartModel@e25b2fe]" name="webPage" is-config="true" duration-ms="4773" started-at="2019-06-28T04:36:20Z" finished-at="2019-06-28T04:36:25Z">
+    <test name="Default test" duration-ms="44126" started-at="2019-06-29T11:52:01Z" finished-at="2019-06-29T11:52:45Z">
+      <class name="stage.msiteQuickModel">
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteQuickModel@754ba872]" name="webPage" is-config="true" duration-ms="6107" started-at="2019-06-29T11:52:01Z" finished-at="2019-06-29T11:52:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteCartModel@e25b2fe]" name="setLocation" duration-ms="5781" started-at="2019-06-28T04:36:25Z" finished-at="2019-06-28T04:36:31Z">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteQuickModel@754ba872]" name="setLocation" duration-ms="5791" started-at="2019-06-29T11:52:07Z" finished-at="2019-06-29T11:52:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method status="PASS" signature="beautyServices()[pri:2, instance:stage.msiteCartModel@e25b2fe]" name="beautyServices" duration-ms="4084" started-at="2019-06-28T04:36:31Z" finished-at="2019-06-28T04:36:35Z">
+        <test-method status="PASS" signature="electriciansCategory()[pri:2, instance:stage.msiteQuickModel@754ba872]" name="electriciansCategory" duration-ms="3717" started-at="2019-06-29T11:52:13Z" finished-at="2019-06-29T11:52:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beautyServices -->
-        <test-method status="PASS" signature="intermediateScreen()[pri:3, instance:stage.msiteCartModel@e25b2fe]" name="intermediateScreen" duration-ms="2162" started-at="2019-06-28T04:36:35Z" finished-at="2019-06-28T04:36:37Z">
+        </test-method> <!-- electriciansCategory -->
+        <test-method status="PASS" signature="formFillInterScreen()[pri:3, instance:stage.msiteQuickModel@754ba872]" name="formFillInterScreen" duration-ms="4343" started-at="2019-06-29T11:52:17Z" finished-at="2019-06-29T11:52:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intermediateScreen -->
-        <test-method status="PASS" signature="requirementScreen()[pri:4, instance:stage.msiteCartModel@e25b2fe]" name="requirementScreen" duration-ms="1986" started-at="2019-06-28T04:36:37Z" finished-at="2019-06-28T04:36:39Z">
+        </test-method> <!-- formFillInterScreen -->
+        <test-method status="PASS" signature="contactDetails()[pri:4, instance:stage.msiteQuickModel@754ba872]" name="contactDetails" duration-ms="3601" started-at="2019-06-29T11:52:21Z" finished-at="2019-06-29T11:52:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requirementScreen -->
-        <test-method status="PASS" signature="vendorlistScreen()[pri:5, instance:stage.msiteCartModel@e25b2fe]" name="vendorlistScreen" duration-ms="2474" started-at="2019-06-28T04:36:39Z" finished-at="2019-06-28T04:36:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vendorlistScreen -->
-        <test-method status="PASS" signature="menuSelection()[pri:6, instance:stage.msiteCartModel@e25b2fe]" name="menuSelection" duration-ms="3213" started-at="2019-06-28T04:36:41Z" finished-at="2019-06-28T04:36:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menuSelection -->
-        <test-method status="PASS" signature="orderReviewScreen()[pri:6, instance:stage.msiteCartModel@e25b2fe]" name="orderReviewScreen" duration-ms="49" started-at="2019-06-28T04:36:45Z" finished-at="2019-06-28T04:36:45Z">
+        </test-method> <!-- contactDetails -->
+        <test-method status="PASS" signature="orderReviewScreen()[pri:5, instance:stage.msiteQuickModel@754ba872]" name="orderReviewScreen" duration-ms="8525" started-at="2019-06-29T11:52:25Z" finished-at="2019-06-29T11:52:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderReviewScreen -->
-      </class> <!-- stage.msiteCartModel -->
+        <test-method status="PASS" signature="weddingPhotography()[pri:6, instance:stage.msiteQuickModel@754ba872]" name="weddingPhotography" duration-ms="5493" started-at="2019-06-29T11:52:33Z" finished-at="2019-06-29T11:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weddingPhotography -->
+        <test-method status="PASS" signature="requirementScreen()[pri:7, instance:stage.msiteQuickModel@754ba872]" name="requirementScreen" duration-ms="4266" started-at="2019-06-29T11:52:39Z" finished-at="2019-06-29T11:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requirementScreen -->
+        <test-method status="PASS" signature="vendorlistScreen()[pri:8, instance:stage.msiteQuickModel@754ba872]" name="vendorlistScreen" duration-ms="2230" started-at="2019-06-29T11:52:43Z" finished-at="2019-06-29T11:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vendorlistScreen -->
+      </class> <!-- stage.msiteQuickModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

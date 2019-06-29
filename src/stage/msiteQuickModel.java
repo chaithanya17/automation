@@ -86,13 +86,62 @@ public class msiteQuickModel {
   		driver.findElement(By.name("mobile")).sendKeys("8310852676");
   		Thread.sleep(500);
   		driver.findElement(By.xpath("//button[contains(text(),'Book Now')]")).click();
-  		Thread.sleep(1000);
+  		Thread.sleep(2000);
   	}
   	
   	@Test(priority=5)
-  	public void orderReviewScreen(){
+  	public void orderReviewScreen() throws InterruptedException{
   	
   		WebElement reviewtext = driver.findElement(By.xpath("//span[contains(text(),'Review Your Request')]"));
 		Assert.assertEquals(reviewtext.getText().contains("Review Your Request"), true); 
+		Thread.sleep(5000);
+		
+		//back to home screen to select other category
+		driver.findElement(By.xpath("//img[@alt='Bro4u']")).click();
+		Thread.sleep(3000);
+  	}
+  	
+  	@Test(priority=6)
+  	public void weddingPhotography() throws InterruptedException{
+  		
+  		driver.findElement(By.xpath("//span[contains(text(),'Search for services')]")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@placeholder='Search for services']")).sendKeys("wedding");
+		Thread.sleep(1000);
+		List<WebElement> subfilters = driver.findElements(By.xpath("//md-list-item[@role='listitem']"));
+		subfilters.get(1).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//button[contains(text(),'VIEW EXPERTS')]")).click();
+		Thread.sleep(1000);	
+  	}
+  	
+  	@Test(priority=7)
+  	public void requirementScreen() throws InterruptedException{
+  		
+  		List<WebElement> selectFilters = driver.findElements(By.xpath("//md-radio-button[@aria-label='Option Filters']"));
+  		selectFilters.get(1).click();
+  		Thread.sleep(1000);
+  		selectFilters.get(4).click();
+  		Thread.sleep(1000);
+  		driver.findElement(By.xpath("//button[contains(text(),'TOMORROW')]")).click();
+		Thread.sleep(200);
+		List<WebElement> selecttimeslot4 = driver.findElements(By.xpath("//md-grid-tile[@ng-repeat='item in $ctrl.slotSelection.tomSlots']"));
+		selecttimeslot4.get(1).click();
+		Thread.sleep(200);
+		driver.findElement(By.xpath("//button[contains(text(),'Choose Expert')]")).click();
+		Thread.sleep(1000);
+  	}
+  	
+  	@Test(priority=8)
+  	public void vendorlistScreen() throws InterruptedException{
+  		
+  		driver.findElement(By.xpath("//button[contains(text(),'BOOK NOW')]")).click();
+  		Thread.sleep(1000);
+  		
+  		// order review screen
+  		WebElement reviewtext = driver.findElement(By.xpath("//h3[contains(text(),'Confirm Order')]"));
+		Assert.assertEquals(reviewtext.getText().contains("Confirm Order"), true); 
+		Thread.sleep(1000);
+  		
   	}
 }

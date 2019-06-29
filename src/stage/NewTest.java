@@ -93,14 +93,58 @@ public class NewTest {
 	}
 	
 	@Test(priority=5)
-	public void orderReview(){
+	public void orderReview() throws InterruptedException{
 		
 		WebElement reviewtext = driver.findElement(By.xpath("//md-card-title-text[@class='order-review-head-title layout-row']"));
-        System.out.println(reviewtext.getText());
+        //System.out.println(reviewtext.getText());
 		Assert.assertEquals(reviewtext.getText().contains("Review Your Request"), true);				
-
+		Thread.sleep(1000);
 		
+		//back to home screen to select other category
+		driver.navigate().back();
+		Thread.sleep(1000);
 	}
 	
+	@Test(priority=6)
+	public void weddingPhotography() throws InterruptedException{
+		
+		  driver.findElement(By.xpath("//div[@id='search_services_input']")).click();
+		  Thread.sleep(600);
+		  driver.findElement(By.xpath("//input[@placeholder='Search for services']")).sendKeys("wedding");
+		  Thread.sleep(800);
+		  List<WebElement> subCategories = driver.findElements(By.xpath("//div[@ng-repeat='item in searchServiceCtrl.searchResult']"));
+		  subCategories.get(1).click();
+		  Thread.sleep(1000);
+		  driver.findElement(By.xpath("//button[contains(text(),'View Experts')]")).click();
+		  Thread.sleep(1000);
+	}
 	
+	@Test(priority=7)
+	public void requireScreen() throws InterruptedException{
+		
+		List<WebElement> selectOptions = driver.findElements(By.xpath("//md-radio-button[@aria-label='Option Filters']"));
+		selectOptions.get(0).click();
+		Thread.sleep(1000);
+		selectOptions.get(3).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//button[contains(text(),'TOMORROW')]")).click();
+		Thread.sleep(200);
+		List<WebElement>selectTimeslot = driver.findElements(By.xpath("//button[@ng-repeat='item in $ctrl.slotSelection.tomSlots']"));
+		selectTimeslot.get(1).click();
+		
+		driver.findElement(By.xpath("//button[contains(text(),'Choose Expert')]")).click();
+		Thread.sleep(1000);
+	}
+	
+	@Test(priority=8)
+	public void vendorlistScreen() throws InterruptedException{
+		
+		  driver.findElement(By.xpath("//button[contains(text(),'Book Now')]")).click();
+		  Thread.sleep(1000);
+		  
+		  //order review screen
+		  WebElement reviewtext = driver.findElement(By.xpath("//span[contains(text(),'Review Selection And Confirm Order')]"));
+		  Assert.assertEquals(reviewtext.getText().contains("Review Selection And Confirm Order"), true);				
+		  Thread.sleep(1000);
+	}
 }
