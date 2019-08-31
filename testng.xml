@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="10" name="Test">
     <classes>
       <class name="stage.NewTest"/>
       <class name="stage.packageModel"/>
@@ -13,6 +13,8 @@
       <class name="stage.msiteContactModel"/>
       <class name="stage.msiteProductModel"/>
       <class name="stage.msiteCartModel"/>
+      <class name="stage.mobilerecharge"/>
+      
       
     </classes>
   </test> <!-- Test -->

@@ -1,49 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44126" started-at="2019-06-29T11:52:01Z" finished-at="2019-06-29T11:52:45Z">
+  <suite name="Suite" duration-ms="51489" started-at="2019-08-31T06:46:07Z" finished-at="2019-08-31T06:46:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44126" started-at="2019-06-29T11:52:01Z" finished-at="2019-06-29T11:52:45Z">
-      <class name="stage.msiteQuickModel">
-        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteQuickModel@754ba872]" name="webPage" is-config="true" duration-ms="6107" started-at="2019-06-29T11:52:01Z" finished-at="2019-06-29T11:52:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webPage -->
-        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteQuickModel@754ba872]" name="setLocation" duration-ms="5791" started-at="2019-06-29T11:52:07Z" finished-at="2019-06-29T11:52:13Z">
+    <test name="Test" duration-ms="51489" started-at="2019-08-31T06:46:07Z" finished-at="2019-08-31T06:46:58Z">
+      <class name="stage.msiteProductModel">
+        <test-method status="PASS" signature="setLocation()[pri:1, instance:stage.msiteProductModel@553f17c]" name="setLocation" duration-ms="5715" started-at="2019-08-31T06:46:53Z" finished-at="2019-08-31T06:46:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method status="PASS" signature="electriciansCategory()[pri:2, instance:stage.msiteQuickModel@754ba872]" name="electriciansCategory" duration-ms="3717" started-at="2019-06-29T11:52:13Z" finished-at="2019-06-29T11:52:17Z">
+      </class> <!-- stage.msiteProductModel -->
+      <class name="stage.mobilerecharge">
+        <test-method status="PASS" signature="rechargelink()[pri:0, instance:stage.mobilerecharge@271053e1]" name="rechargelink" duration-ms="5183" started-at="2019-08-31T06:46:47Z" finished-at="2019-08-31T06:46:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- electriciansCategory -->
-        <test-method status="PASS" signature="formFillInterScreen()[pri:3, instance:stage.msiteQuickModel@754ba872]" name="formFillInterScreen" duration-ms="4343" started-at="2019-06-29T11:52:17Z" finished-at="2019-06-29T11:52:21Z">
+        </test-method> <!-- rechargelink -->
+      </class> <!-- stage.mobilerecharge -->
+      <class name="stage.NewTest">
+        <test-method status="PASS" signature="webpage()[pri:0, instance:stage.NewTest@239963d8]" name="webpage" is-config="true" duration-ms="4204" started-at="2019-08-31T06:46:07Z" finished-at="2019-08-31T06:46:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formFillInterScreen -->
-        <test-method status="PASS" signature="contactDetails()[pri:4, instance:stage.msiteQuickModel@754ba872]" name="contactDetails" duration-ms="3601" started-at="2019-06-29T11:52:21Z" finished-at="2019-06-29T11:52:25Z">
+        </test-method> <!-- webpage -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.cartModel@598067a5]" name="webPage" is-config="true" duration-ms="2969" started-at="2019-08-31T06:46:11Z" finished-at="2019-08-31T06:46:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactDetails -->
-        <test-method status="PASS" signature="orderReviewScreen()[pri:5, instance:stage.msiteQuickModel@754ba872]" name="orderReviewScreen" duration-ms="8525" started-at="2019-06-29T11:52:25Z" finished-at="2019-06-29T11:52:33Z">
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.contactModel@57fffcd7]" name="webPage" is-config="true" duration-ms="3562" started-at="2019-08-31T06:46:14Z" finished-at="2019-08-31T06:46:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderReviewScreen -->
-        <test-method status="PASS" signature="weddingPhotography()[pri:6, instance:stage.msiteQuickModel@754ba872]" name="weddingPhotography" duration-ms="5493" started-at="2019-06-29T11:52:33Z" finished-at="2019-06-29T11:52:39Z">
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.mobilerecharge@271053e1]" name="webBrowser" is-config="true" duration-ms="3506" started-at="2019-08-31T06:46:18Z" finished-at="2019-08-31T06:46:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- weddingPhotography -->
-        <test-method status="PASS" signature="requirementScreen()[pri:7, instance:stage.msiteQuickModel@754ba872]" name="requirementScreen" duration-ms="4266" started-at="2019-06-29T11:52:39Z" finished-at="2019-06-29T11:52:43Z">
+        </test-method> <!-- webBrowser -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteCartModel@4f7d0008]" name="webPage" is-config="true" duration-ms="4161" started-at="2019-08-31T06:46:21Z" finished-at="2019-08-31T06:46:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requirementScreen -->
-        <test-method status="PASS" signature="vendorlistScreen()[pri:8, instance:stage.msiteQuickModel@754ba872]" name="vendorlistScreen" duration-ms="2230" started-at="2019-06-29T11:52:43Z" finished-at="2019-06-29T11:52:45Z">
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteContactModel@5f341870]" name="webPage" is-config="true" duration-ms="3081" started-at="2019-08-31T06:46:25Z" finished-at="2019-08-31T06:46:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorlistScreen -->
-      </class> <!-- stage.msiteQuickModel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msitePackageModel@14bf9759]" name="webPage" is-config="true" duration-ms="3305" started-at="2019-08-31T06:46:28Z" finished-at="2019-08-31T06:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteProductModel@553f17c]" name="webPage" is-config="true" duration-ms="3783" started-at="2019-08-31T06:46:32Z" finished-at="2019-08-31T06:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.msiteQuickModel@3c0ecd4b]" name="webPage" is-config="true" duration-ms="3531" started-at="2019-08-31T06:46:35Z" finished-at="2019-08-31T06:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPage -->
+        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.packageModel@3abbfa04]" name="webBrowser" is-config="true" duration-ms="4099" started-at="2019-08-31T06:46:39Z" finished-at="2019-08-31T06:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webBrowser -->
+        <test-method status="PASS" signature="webPage()[pri:0, instance:stage.productModel@31ef45e3]" name="webPage" is-config="true" duration-ms="4322" started-at="2019-08-31T06:46:43Z" finished-at="2019-08-31T06:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPage -->
+      </class> <!-- stage.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

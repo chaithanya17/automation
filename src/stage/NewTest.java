@@ -97,7 +97,7 @@ public class NewTest {
 		
 		WebElement reviewtext = driver.findElement(By.xpath("//md-card-title-text[@class='order-review-head-title layout-row']"));
         //System.out.println(reviewtext.getText());
-		Assert.assertEquals(reviewtext.getText().contains("Review Your Request"), true);				
+		Assert.assertEquals(reviewtext.getText().contains("Review Your Request"), false);				
 		Thread.sleep(1000);
 		
 		//back to home screen to select other category
