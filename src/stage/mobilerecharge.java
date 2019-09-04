@@ -30,14 +30,15 @@ public class mobilerecharge {
 			
 	  }
 	  
-	  @Test
+	  @Test(priority = 1)
 	  public void rechargelink() throws InterruptedException {
 	  
 		  driver.findElement(By.xpath("//li[@name='recharge']")).click();
 			driver.findElement(By.xpath("//md-radio-button[@name='networktype']")).click();
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//input[@name='connectionNumber']")).sendKeys("8310852676");
-			
+			Thread.sleep(1000);
+
 			driver.findElement(By.id("operatorSelect")).click();
 			List<WebElement>selectOperator = driver.findElements(By.xpath("//md-option[@class='ng-scope md-ink-ripple']"));
 			selectOperator.get(3).click();
@@ -46,10 +47,19 @@ public class mobilerecharge {
 			driver.findElement(By.id("circleSelect")).click();
 			WebElement selectCircle = driver.findElement(By.xpath("//md-option[@ng-repeat='item in ($ctrl.operatorCircles | toArray:false)']"));
 			selectCircle.sendKeys("k", Keys.ENTER);
+			Thread.sleep(1000);
 			
 			driver.findElement(By.name("amt")).sendKeys("250");
 			driver.findElement(By.id("recharge-btn")).click();
+			Thread.sleep(1000);
 	  }
 	  //do login and proceed further 
+	  @Test(priority = 2)
+	  public void login () throws InterruptedException {
+		  driver.findElement(By.name("mobileNumber")).sendKeys("8310852676");
+			Thread.sleep(1000);
+			driver.findElement(By.id("mobile-submit-btn")).click();
+
+	  }
 }
 

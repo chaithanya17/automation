@@ -5,16 +5,15 @@
     <classes>
       <class name="stage.NewTest"/>
       <class name="stage.packageModel"/>
-      <class name="stage.contactModel"/>
       <class name="stage.productModel"/>
       <class name="stage.cartModel"/>
-      <class name="stage.msiteQuickModel"/>
+      <class name="stage.contactModel"/>
+      <class name="stage.mobilerecharge"/>
       <class name="stage.msitePackageModel"/>
-      <class name="stage.msiteContactModel"/>
+      <class name="stage.msiteQuickModel"/>
       <class name="stage.msiteProductModel"/>
       <class name="stage.msiteCartModel"/>
-      <class name="stage.mobilerecharge"/>
-      
+      <class name="stage.msiteContactModel"/>
       
     </classes>
   </test> <!-- Test -->
