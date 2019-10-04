@@ -3,12 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stage.mobilerecharge">
+      <class name="stage.msiteQuickModel">
         <methods>
-          <include name="rechargelink"/>
-          <include name="webBrowser"/>
+          <include name="vendorlistScreen"/>
+          <include name="setLocation"/>
+          <include name="weddingPhotography"/>
+          <include name="webPage"/>
+          <include name="contactDetails"/>
+          <include name="orderReviewScreen"/>
+          <include name="formFillInterScreen"/>
+          <include name="electriciansCategory"/>
+          <include name="requirementScreen"/>
         </methods>
-      </class> <!-- stage.mobilerecharge -->
+      </class> <!-- stage.msiteQuickModel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

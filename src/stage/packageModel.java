@@ -65,6 +65,13 @@ public class packageModel {
   @Test(priority=3)
   public void requirementScreen() throws InterruptedException{
 	  
+	  WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("hampinagar");
+		Thread.sleep(1000);
+		locationField.sendKeys(Keys.DOWN);
+		locationField.sendKeys(Keys.RETURN);
+		Thread.sleep(1000);
+	  
 	  WebElement increasequan = driver.findElement(By.xpath("//div[@ng-click='$ctrl.updateOrder(1,$index,item, option)']"));
 		increasequan.click();
 		Thread.sleep(200);

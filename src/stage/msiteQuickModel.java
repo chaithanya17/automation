@@ -32,12 +32,13 @@ public class msiteQuickModel {
 	  driver = new ChromeDriver(options);
 	  driver.get("https://m.staging.bro4u.com/");
 	  driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
+	  
 		  	  
   }
   	@Test(priority=1)
   	public void setLocation() throws InterruptedException{
   		
-  		Thread.sleep(1000);
+  		Thread.sleep(1500);
   		driver.findElement(By.xpath("//div[contains(text(),'Choose Your Location')]")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//h3[contains(text(),'Bangalore')]")).click();
@@ -85,6 +86,15 @@ public class msiteQuickModel {
   		driver.findElement(By.name("email")).sendKeys("chai@gmail.com");
   		driver.findElement(By.name("mobile")).sendKeys("8310852676");
   		Thread.sleep(500);
+  		
+  		WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("rajajinagar");
+		Thread.sleep(1000);
+	  List<WebElement>locationList = driver.findElements(By.id("g-autocomp-pred-container"));
+	    Thread.sleep(400);
+	  locationList.get(0).click();
+	    Thread.sleep(1400);
+  		
   		driver.findElement(By.xpath("//button[contains(text(),'Book Now')]")).click();
   		Thread.sleep(2000);
   	}
@@ -117,6 +127,14 @@ public class msiteQuickModel {
   	
   	@Test(priority=7)
   	public void requirementScreen() throws InterruptedException{
+  		
+  		WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("rajajinagar");
+		Thread.sleep(1000);
+	  List<WebElement>locationList = driver.findElements(By.id("g-autocomp-pred-container"));
+	    Thread.sleep(400);
+	  locationList.get(0).click();
+	    Thread.sleep(1400);
   		
   		List<WebElement> selectFilters = driver.findElements(By.xpath("//md-radio-button[@aria-label='Option Filters']"));
   		selectFilters.get(1).click();

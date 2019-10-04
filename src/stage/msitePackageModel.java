@@ -68,6 +68,14 @@ public class msitePackageModel {
   }
   @Test(priority=4)
   public void requirementScreen() throws InterruptedException{
+	  
+	  WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("rajajinagar");
+		Thread.sleep(1000);
+	  List<WebElement>locationList = driver.findElements(By.id("g-autocomp-pred-container"));
+	    Thread.sleep(400);
+	  locationList.get(0).click();
+	    Thread.sleep(1400);
 	 
 	  driver.findElement(By.xpath("//button[contains(text(),'TOMORROW')]")).click();
 		List<WebElement> selecttimeslot = driver.findElements(By.xpath("//md-grid-tile[@ng-repeat='item in $ctrl.slotSelection.tomSlots']"));

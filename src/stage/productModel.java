@@ -71,9 +71,16 @@ public class productModel {
   @Test(priority=3)
   public void requirementPage() throws InterruptedException{
 	  
+	  WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("vijayanagar");
+		Thread.sleep(1000);
+		locationField.sendKeys(Keys.DOWN);
+		locationField.sendKeys(Keys.RETURN);
+		Thread.sleep(1000);
+	  
 	  List<WebElement>weightType = driver.findElements(By.xpath("//md-radio-button[@aria-label='Option Filters']"));
 		weightType.get(0).click();
-		Thread.sleep(200);
+		Thread.sleep(500);
 		weightType.get(5).click();
 		Thread.sleep(200);
 		driver.findElement(By.xpath("//button[contains(text(),'TOMORROW')]")).click();

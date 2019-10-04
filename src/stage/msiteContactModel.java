@@ -65,6 +65,14 @@ public class msiteContactModel {
   @Test(priority=4)
   public void requirementScreen() throws InterruptedException{
 	  
+	  WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("rajajinagar");
+		Thread.sleep(1000);
+	  List<WebElement>locationList = driver.findElements(By.id("g-autocomp-pred-container"));
+	    Thread.sleep(400);
+	  locationList.get(0).click();
+	    Thread.sleep(1400);
+	  
 	  List<WebElement> filterselection = driver.findElements(By.xpath("//md-radio-button[@ng-repeat='option in card.options']"));
 		filterselection.get(1).click();
 		driver.findElement(By.xpath("//button[contains(text(),'TOMORROW')]")).click();

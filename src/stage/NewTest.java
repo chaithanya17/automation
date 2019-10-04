@@ -29,6 +29,7 @@ public class NewTest {
         options.addArguments("headless");
         options.addArguments("window-size=1200x600");
   		driver=new ChromeDriver(options);
+		//driver= new ChromeDriver();
 		driver.get("https://web.staging.bro4u.com/");
 		driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
 		
@@ -73,9 +74,10 @@ public class NewTest {
 		CalenderDateSel.get(3).click();
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//md-select[@name='service_time']")).click();
+		Thread.sleep(500);
 		List<WebElement>selecttime = driver.findElements(By.xpath("//md-option[@ng-if='$ctrl.timeSlots && $ctrl.timeSlots.length']"));
 		selecttime.get(3).click();
-		Thread.sleep(1000);	
+		Thread.sleep(1500);	
 		
 	}
 	
@@ -86,7 +88,13 @@ public class NewTest {
 		driver.findElement(By.name("streetName")).sendKeys("bro4u, Rajajinagar");
 		driver.findElement(By.name("email")).sendKeys("chai@gmail.com");
 		driver.findElement(By.name("mobile")).sendKeys("8310852676");
-		Thread.sleep(800);
+		//driver.findElement(By.id("location_int")).sendKeys("rajaji",Keys.ENTER);
+		WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("koramangala");
+		Thread.sleep(1000);
+		locationField.sendKeys(Keys.DOWN);
+		locationField.sendKeys(Keys.RETURN);
+		Thread.sleep(1000);
 		List<WebElement>BookNowButton = driver.findElements(By.xpath("//button[contains(text(),'Book Now')]"));
 		BookNowButton.get(0).click();
 		Thread.sleep(2500);
@@ -121,6 +129,13 @@ public class NewTest {
 	
 	@Test(priority=7)
 	public void requireScreen() throws InterruptedException{
+		
+		WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("Kengeri");
+		Thread.sleep(1000);
+		locationField.sendKeys(Keys.DOWN);
+		locationField.sendKeys(Keys.RETURN);
+		Thread.sleep(1000);
 		
 		List<WebElement> selectOptions = driver.findElements(By.xpath("//md-radio-button[@aria-label='Option Filters']"));
 		selectOptions.get(0).click();

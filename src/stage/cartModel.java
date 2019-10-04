@@ -70,6 +70,14 @@ public class cartModel {
   
   @Test(priority=4)
   public void requirementScreen() throws InterruptedException{
+	  
+	  WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("mallesh");
+		Thread.sleep(1000);
+		locationField.sendKeys(Keys.DOWN);
+		locationField.sendKeys(Keys.RETURN);
+		Thread.sleep(1000);
+	  
 	  driver.findElement(By.xpath("//button[contains(text(),'TOMORROW')]")).click();
 		Thread.sleep(200);
 		List<WebElement>seltime = driver.findElements(By.xpath("//button[@ng-repeat='item in $ctrl.slotSelection.tomSlots']"));

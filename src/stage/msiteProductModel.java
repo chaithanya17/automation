@@ -62,6 +62,14 @@ public class msiteProductModel {
   @Test(priority=3)
   public void requirementScreen() throws InterruptedException{
 	  
+	  WebElement locationField = driver.findElement(By.id("location_int"));
+		locationField.sendKeys("rajajinagar");
+		Thread.sleep(1000);
+	  List<WebElement>locationList = driver.findElements(By.id("g-autocomp-pred-container"));
+	    Thread.sleep(400);
+	  locationList.get(0).click();
+	    Thread.sleep(1400);
+	  
 	  List<WebElement> productfilteropt = driver.findElements(By.xpath("//md-radio-button[@aria-label='Option Filters']"));
 		productfilteropt.get(0).click();
 		Thread.sleep(200);
