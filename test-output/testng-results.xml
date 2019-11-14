@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21216" started-at="2019-10-04T05:28:34Z" finished-at="2019-10-04T05:28:56Z">
+  <suite name="Default suite" duration-ms="25410" started-at="2019-11-14T12:46:41Z" finished-at="2019-11-14T12:47:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21216" started-at="2019-10-04T05:28:34Z" finished-at="2019-10-04T05:28:56Z">
-      <class name="stage.mobilerecharge">
-        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.mobilerecharge@1a968a59]" name="webBrowser" is-config="true" duration-ms="9418" started-at="2019-10-04T05:28:34Z" finished-at="2019-10-04T05:28:44Z">
+    <test name="Default test" duration-ms="25410" started-at="2019-11-14T12:46:41Z" finished-at="2019-11-14T12:47:06Z">
+      <class name="stage.landingPageRedesignWeb">
+        <test-method status="PASS" signature="launchWebpage()[pri:0, instance:stage.landingPageRedesignWeb@1a968a59]" name="launchWebpage" is-config="true" duration-ms="4323" started-at="2019-11-14T12:46:41Z" finished-at="2019-11-14T12:46:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webBrowser -->
-        <test-method status="PASS" signature="rechargelink()[pri:1, instance:stage.mobilerecharge@1a968a59]" name="rechargelink" duration-ms="9896" started-at="2019-10-04T05:28:44Z" finished-at="2019-10-04T05:28:54Z">
+        </test-method> <!-- launchWebpage -->
+        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.landingPageRedesignWeb@1a968a59]" name="set_location" duration-ms="3947" started-at="2019-11-14T12:46:45Z" finished-at="2019-11-14T12:46:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rechargelink -->
-        <test-method status="PASS" signature="login()[pri:2, instance:stage.mobilerecharge@1a968a59]" name="login" duration-ms="1850" started-at="2019-10-04T05:28:54Z" finished-at="2019-10-04T05:28:56Z">
+        </test-method> <!-- set_location -->
+        <test-method status="PASS" signature="check_pricechart()[pri:2, instance:stage.landingPageRedesignWeb@1a968a59]" name="check_pricechart" duration-ms="3577" started-at="2019-11-14T12:46:49Z" finished-at="2019-11-14T12:46:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- stage.mobilerecharge -->
+        </test-method> <!-- check_pricechart -->
+        <test-method status="PASS" signature="dateTimeicon()[pri:3, instance:stage.landingPageRedesignWeb@1a968a59]" name="dateTimeicon" duration-ms="567" started-at="2019-11-14T12:46:53Z" finished-at="2019-11-14T12:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTimeicon -->
+        <test-method status="PASS" signature="requirementselect()[pri:4, instance:stage.landingPageRedesignWeb@1a968a59]" name="requirementselect" duration-ms="5694" started-at="2019-11-14T12:46:53Z" finished-at="2019-11-14T12:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requirementselect -->
+        <test-method status="PASS" signature="provideDetails_screen()[pri:5, instance:stage.landingPageRedesignWeb@1a968a59]" name="provideDetails_screen" duration-ms="4931" started-at="2019-11-14T12:46:59Z" finished-at="2019-11-14T12:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideDetails_screen -->
+        <test-method status="PASS" signature="reveiwRequest_screen()[pri:6, instance:stage.landingPageRedesignWeb@1a968a59]" name="reveiwRequest_screen" duration-ms="2199" started-at="2019-11-14T12:47:04Z" finished-at="2019-11-14T12:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reveiwRequest_screen -->
+        <test-method status="PASS" signature="ConfirmOtp_verify()[pri:7, instance:stage.landingPageRedesignWeb@1a968a59]" name="ConfirmOtp_verify" duration-ms="126" started-at="2019-11-14T12:47:06Z" finished-at="2019-11-14T12:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOtp_verify -->
+      </class> <!-- stage.landingPageRedesignWeb -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

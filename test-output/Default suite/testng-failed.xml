@@ -3,19 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stage.msiteQuickModel">
+      <class name="stage.landingPageRedesignWeb">
         <methods>
-          <include name="vendorlistScreen"/>
-          <include name="setLocation"/>
-          <include name="weddingPhotography"/>
-          <include name="webPage"/>
-          <include name="contactDetails"/>
-          <include name="orderReviewScreen"/>
-          <include name="formFillInterScreen"/>
-          <include name="electriciansCategory"/>
-          <include name="requirementScreen"/>
+          <include name="dateTimeicon"/>
+          <include name="launchWebpage"/>
         </methods>
-      </class> <!-- stage.msiteQuickModel -->
+      </class> <!-- stage.landingPageRedesignWeb -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
