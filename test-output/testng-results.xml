@@ -1,44 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25410" started-at="2019-11-14T12:46:41Z" finished-at="2019-11-14T12:47:06Z">
+  <suite name="Default suite" duration-ms="104148" started-at="2019-11-15T10:37:47Z" finished-at="2019-11-15T10:39:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25410" started-at="2019-11-14T12:46:41Z" finished-at="2019-11-14T12:47:06Z">
+    <test name="Default test" duration-ms="104148" started-at="2019-11-15T10:37:47Z" finished-at="2019-11-15T10:39:31Z">
       <class name="stage.landingPageRedesignWeb">
-        <test-method status="PASS" signature="launchWebpage()[pri:0, instance:stage.landingPageRedesignWeb@1a968a59]" name="launchWebpage" is-config="true" duration-ms="4323" started-at="2019-11-14T12:46:41Z" finished-at="2019-11-14T12:46:45Z">
+        <test-method status="PASS" signature="launchWebpage()[pri:0, instance:stage.landingPageRedesignWeb@4667ae56]" name="launchWebpage" is-config="true" duration-ms="3723" started-at="2019-11-15T10:37:47Z" finished-at="2019-11-15T10:37:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebpage -->
-        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.landingPageRedesignWeb@1a968a59]" name="set_location" duration-ms="3947" started-at="2019-11-14T12:46:45Z" finished-at="2019-11-14T12:46:49Z">
+        <test-method status="PASS" signature="set_location()[pri:1, instance:stage.landingPageRedesignWeb@4667ae56]" name="set_location" duration-ms="4513" started-at="2019-11-15T10:37:51Z" finished-at="2019-11-15T10:37:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_location -->
-        <test-method status="PASS" signature="check_pricechart()[pri:2, instance:stage.landingPageRedesignWeb@1a968a59]" name="check_pricechart" duration-ms="3577" started-at="2019-11-14T12:46:49Z" finished-at="2019-11-14T12:46:53Z">
+        <test-method status="PASS" signature="check_pricechart()[pri:2, instance:stage.landingPageRedesignWeb@4667ae56]" name="check_pricechart" duration-ms="4029" started-at="2019-11-15T10:37:55Z" finished-at="2019-11-15T10:37:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_pricechart -->
-        <test-method status="PASS" signature="dateTimeicon()[pri:3, instance:stage.landingPageRedesignWeb@1a968a59]" name="dateTimeicon" duration-ms="567" started-at="2019-11-14T12:46:53Z" finished-at="2019-11-14T12:46:53Z">
+        <test-method status="PASS" signature="dateTimeicon()[pri:3, instance:stage.landingPageRedesignWeb@4667ae56]" name="dateTimeicon" duration-ms="1085" started-at="2019-11-15T10:37:59Z" finished-at="2019-11-15T10:38:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateTimeicon -->
-        <test-method status="PASS" signature="requirementselect()[pri:4, instance:stage.landingPageRedesignWeb@1a968a59]" name="requirementselect" duration-ms="5694" started-at="2019-11-14T12:46:53Z" finished-at="2019-11-14T12:46:59Z">
+        <test-method status="PASS" signature="requirementselect()[pri:4, instance:stage.landingPageRedesignWeb@4667ae56]" name="requirementselect" duration-ms="5439" started-at="2019-11-15T10:38:00Z" finished-at="2019-11-15T10:38:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requirementselect -->
-        <test-method status="PASS" signature="provideDetails_screen()[pri:5, instance:stage.landingPageRedesignWeb@1a968a59]" name="provideDetails_screen" duration-ms="4931" started-at="2019-11-14T12:46:59Z" finished-at="2019-11-14T12:47:04Z">
+        <test-method status="PASS" signature="provideDetails_screen()[pri:5, instance:stage.landingPageRedesignWeb@4667ae56]" name="provideDetails_screen" duration-ms="5208" started-at="2019-11-15T10:38:06Z" finished-at="2019-11-15T10:38:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- provideDetails_screen -->
-        <test-method status="PASS" signature="reveiwRequest_screen()[pri:6, instance:stage.landingPageRedesignWeb@1a968a59]" name="reveiwRequest_screen" duration-ms="2199" started-at="2019-11-14T12:47:04Z" finished-at="2019-11-14T12:47:06Z">
+        <test-method status="PASS" signature="reveiwRequest_screen()[pri:6, instance:stage.landingPageRedesignWeb@4667ae56]" name="reveiwRequest_screen" duration-ms="2201" started-at="2019-11-15T10:38:11Z" finished-at="2019-11-15T10:38:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reveiwRequest_screen -->
-        <test-method status="PASS" signature="ConfirmOtp_verify()[pri:7, instance:stage.landingPageRedesignWeb@1a968a59]" name="ConfirmOtp_verify" duration-ms="126" started-at="2019-11-14T12:47:06Z" finished-at="2019-11-14T12:47:06Z">
+        <test-method status="PASS" signature="ConfirmOtp_verify()[pri:7, instance:stage.landingPageRedesignWeb@4667ae56]" name="ConfirmOtp_verify" duration-ms="4998" started-at="2019-11-15T10:38:13Z" finished-at="2019-11-15T10:38:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmOtp_verify -->
+        <test-method status="PASS" signature="verify_backbutton()[pri:8, instance:stage.landingPageRedesignWeb@4667ae56]" name="verify_backbutton" duration-ms="3979" started-at="2019-11-15T10:38:18Z" finished-at="2019-11-15T10:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_backbutton -->
+        <test-method status="PASS" signature="invalidOtp_resendotp()[pri:9, instance:stage.landingPageRedesignWeb@4667ae56]" name="invalidOtp_resendotp" duration-ms="68916" started-at="2019-11-15T10:38:22Z" finished-at="2019-11-15T10:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidOtp_resendotp -->
       </class> <!-- stage.landingPageRedesignWeb -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -5,8 +5,14 @@
     <classes>
       <class name="stage.landingPageRedesignWeb">
         <methods>
-          <include name="dateTimeicon"/>
+          <include name="provideDetails_screen"/>
+          <include name="verify_backbutton"/>
+          <include name="check_pricechart"/>
+          <include name="reveiwRequest_screen"/>
           <include name="launchWebpage"/>
+          <include name="ConfirmOtp_verify"/>
+          <include name="invalidOtp_resendotp"/>
+          <include name="requirementselect"/>
         </methods>
       </class> <!-- stage.landingPageRedesignWeb -->
     </classes>
