@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stage.landingPageRedesignWeb">
+      <class name="stage.msiteLandingPageRedesign">
         <methods>
-          <include name="provideDetails_screen"/>
-          <include name="verify_backbutton"/>
-          <include name="check_pricechart"/>
-          <include name="reveiwRequest_screen"/>
-          <include name="launchWebpage"/>
-          <include name="ConfirmOtp_verify"/>
           <include name="invalidOtp_resendotp"/>
-          <include name="requirementselect"/>
+          <include name="browserlaunch"/>
         </methods>
-      </class> <!-- stage.landingPageRedesignWeb -->
+      </class> <!-- stage.msiteLandingPageRedesign -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
