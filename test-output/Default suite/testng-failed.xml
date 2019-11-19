@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stage.msiteLandingPageRedesign">
+      <class name="stage.HomescreenTestcases">
         <methods>
-          <include name="invalidOtp_resendotp"/>
-          <include name="browserlaunch"/>
+          <include name="set_location"/>
+          <include name="webBrowser"/>
         </methods>
-      </class> <!-- stage.msiteLandingPageRedesign -->
+      </class> <!-- stage.HomescreenTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -40,7 +40,7 @@ public class msiteLandingPageRedesign {
 		
 		Thread.sleep(1500);
 		driver.findElement(By.xpath("//div[contains(text(),'Choose Your Location')]")).click();
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("//h3[contains(text(),'Bangalore')]")).click();
 		WebElement selectlocation = driver.findElement(By.id("input_0"));
 		selectlocation.sendKeys("rajajinagar");
@@ -52,7 +52,7 @@ public class msiteLandingPageRedesign {
 	}
   
   @Test(priority=2)
-	public void electriciansCategory() throws InterruptedException{
+	public void searchCategory() throws InterruptedException{
 	  
 	    driver.findElement(By.xpath("//span[contains(text(),'Search for services')]")).click();
 		Thread.sleep(1000);
@@ -124,7 +124,7 @@ public class msiteLandingPageRedesign {
 	  driver.findElement(By.name("name")).sendKeys("Chaithanya");
 	  driver.findElement(By.name("streetName")).sendKeys("bro4u, Rajajinagar");
 	  driver.findElement(By.name("email")).sendKeys("chai@gmail.com");
-	  driver.findElement(By.name("mobile")).sendKeys("8311852676");
+	  driver.findElement(By.name("mobile")).sendKeys("8311852096");
 	  Thread.sleep(500);
 
 	  js.executeScript("window.scrollBy(0,500)");
@@ -175,7 +175,7 @@ public class msiteLandingPageRedesign {
 		//check change button is working or not
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[@class='change-number-btn-container layout-align-start-center layout-row flex-25']")).click();
-		driver.findElement(By.name("mobile")).sendKeys("7801787879");
+		driver.findElement(By.name("mobile")).sendKeys("7801787809");
 		List<WebElement>BookNowButton = driver.findElements(By.xpath("//button[contains(text(),'Book Now')]"));
 		BookNowButton.get(0).click();
 		Thread.sleep(2000);
