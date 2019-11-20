@@ -89,7 +89,7 @@ public class HomescreenTestcases {
 	@Test(priority = 4)
 	public void homebanner_check() {
 		
-		boolean banner = driver.findElement(By.xpath("//div[@class=\"carousel-item\"]")).isDisplayed();
+		boolean banner = driver.findElement(By.xpath("//div[@class='banner-img flex-65']")).isDisplayed();
 		System.out.println("Banner is present: "+banner+"\n");
 	}
 	
@@ -226,9 +226,9 @@ public class HomescreenTestcases {
 		
 		boolean footer_logo = driver.findElement(By.id("footer_logo")).isDisplayed();
 		System.out.println("Footer logo is present: "+footer_logo+"\n");
-		
-			System.out.println("Total number of social links: "+driver.findElements(By.xpath("//a[@rel='nofollow']")).size()+"\n");
-		
+
+		System.out.println("Total number of social links: "+driver.findElements(By.xpath("//a[@rel='nofollow']")).size()+"\n");
+
 		List<WebElement> footer_links= driver.findElements(By.tagName("a"));
 		for (int i = 8; i < footer_links.size(); i++) {
 			System.out.println(footer_links.get(i).getText());

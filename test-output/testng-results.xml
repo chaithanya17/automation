@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10527" started-at="2019-11-20T06:29:25Z" finished-at="2019-11-20T06:29:36Z">
+  <suite name="Default suite" duration-ms="10078" started-at="2019-11-20T06:37:26Z" finished-at="2019-11-20T06:37:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10527" started-at="2019-11-20T06:29:25Z" finished-at="2019-11-20T06:29:36Z">
+    <test name="Default test" duration-ms="10078" started-at="2019-11-20T06:37:26Z" finished-at="2019-11-20T06:37:36Z">
       <class name="stage.HomescreenTestcases">
-        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.HomescreenTestcases@4667ae56]" name="webBrowser" is-config="true" duration-ms="2997" started-at="2019-11-20T06:29:25Z" finished-at="2019-11-20T06:29:28Z">
+        <test-method status="PASS" signature="webBrowser()[pri:0, instance:stage.HomescreenTestcases@4667ae56]" name="webBrowser" is-config="true" duration-ms="2506" started-at="2019-11-20T06:37:26Z" finished-at="2019-11-20T06:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webBrowser -->
-        <test-method status="PASS" signature="headerbar_verify()[pri:1, instance:stage.HomescreenTestcases@4667ae56]" name="headerbar_verify" duration-ms="129" started-at="2019-11-20T06:29:28Z" finished-at="2019-11-20T06:29:28Z">
+        <test-method status="PASS" signature="headerbar_verify()[pri:1, instance:stage.HomescreenTestcases@4667ae56]" name="headerbar_verify" duration-ms="153" started-at="2019-11-20T06:37:28Z" finished-at="2019-11-20T06:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerbar_verify -->
-        <test-method status="PASS" signature="set_location()[pri:2, instance:stage.HomescreenTestcases@4667ae56]" name="set_location" duration-ms="5296" started-at="2019-11-20T06:29:28Z" finished-at="2019-11-20T06:29:34Z">
+        <test-method status="PASS" signature="set_location()[pri:2, instance:stage.HomescreenTestcases@4667ae56]" name="set_location" duration-ms="5280" started-at="2019-11-20T06:37:28Z" finished-at="2019-11-20T06:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_location -->
-        <test-method status="PASS" signature="homebaroptions()[pri:3, instance:stage.HomescreenTestcases@4667ae56]" name="homebaroptions" duration-ms="219" started-at="2019-11-20T06:29:34Z" finished-at="2019-11-20T06:29:34Z">
+        <test-method status="PASS" signature="homebaroptions()[pri:3, instance:stage.HomescreenTestcases@4667ae56]" name="homebaroptions" duration-ms="216" started-at="2019-11-20T06:37:34Z" finished-at="2019-11-20T06:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homebaroptions -->
-        <test-method status="PASS" signature="homebanner_check()[pri:4, instance:stage.HomescreenTestcases@4667ae56]" name="homebanner_check" duration-ms="29" started-at="2019-11-20T06:29:34Z" finished-at="2019-11-20T06:29:34Z">
+        <test-method status="PASS" signature="homebanner_check()[pri:4, instance:stage.HomescreenTestcases@4667ae56]" name="homebanner_check" duration-ms="28" started-at="2019-11-20T06:37:34Z" finished-at="2019-11-20T06:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homebanner_check -->
-        <test-method status="PASS" signature="home_recharge_check()[pri:5, instance:stage.HomescreenTestcases@4667ae56]" name="home_recharge_check" duration-ms="282" started-at="2019-11-20T06:29:34Z" finished-at="2019-11-20T06:29:34Z">
+        <test-method status="PASS" signature="home_recharge_check()[pri:5, instance:stage.HomescreenTestcases@4667ae56]" name="home_recharge_check" duration-ms="264" started-at="2019-11-20T06:37:34Z" finished-at="2019-11-20T06:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_recharge_check -->
-        <test-method status="PASS" signature="trending_services()[pri:6, instance:stage.HomescreenTestcases@4667ae56]" name="trending_services" duration-ms="238" started-at="2019-11-20T06:29:34Z" finished-at="2019-11-20T06:29:34Z">
+        <test-method status="PASS" signature="trending_services()[pri:6, instance:stage.HomescreenTestcases@4667ae56]" name="trending_services" duration-ms="253" started-at="2019-11-20T06:37:34Z" finished-at="2019-11-20T06:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trending_services -->
-        <test-method status="PASS" signature="whats_happening_around()[pri:7, instance:stage.HomescreenTestcases@4667ae56]" name="whats_happening_around" duration-ms="158" started-at="2019-11-20T06:29:34Z" finished-at="2019-11-20T06:29:35Z">
+        <test-method status="PASS" signature="whats_happening_around()[pri:7, instance:stage.HomescreenTestcases@4667ae56]" name="whats_happening_around" duration-ms="159" started-at="2019-11-20T06:37:34Z" finished-at="2019-11-20T06:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whats_happening_around -->
-        <test-method status="PASS" signature="howTo_useBro4u()[pri:8, instance:stage.HomescreenTestcases@4667ae56]" name="howTo_useBro4u" duration-ms="112" started-at="2019-11-20T06:29:35Z" finished-at="2019-11-20T06:29:35Z">
+        <test-method status="PASS" signature="howTo_useBro4u()[pri:8, instance:stage.HomescreenTestcases@4667ae56]" name="howTo_useBro4u" duration-ms="98" started-at="2019-11-20T06:37:35Z" finished-at="2019-11-20T06:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- howTo_useBro4u -->
-        <test-method status="PASS" signature="why_bro4u()[pri:9, instance:stage.HomescreenTestcases@4667ae56]" name="why_bro4u" duration-ms="184" started-at="2019-11-20T06:29:35Z" finished-at="2019-11-20T06:29:35Z">
+        <test-method status="PASS" signature="why_bro4u()[pri:9, instance:stage.HomescreenTestcases@4667ae56]" name="why_bro4u" duration-ms="184" started-at="2019-11-20T06:37:35Z" finished-at="2019-11-20T06:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- why_bro4u -->
-        <test-method status="PASS" signature="download_applink()[pri:10, instance:stage.HomescreenTestcases@4667ae56]" name="download_applink" duration-ms="261" started-at="2019-11-20T06:29:35Z" finished-at="2019-11-20T06:29:35Z">
+        <test-method status="PASS" signature="download_applink()[pri:10, instance:stage.HomescreenTestcases@4667ae56]" name="download_applink" duration-ms="288" started-at="2019-11-20T06:37:35Z" finished-at="2019-11-20T06:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- download_applink -->
-        <test-method status="PASS" signature="listAs_partner()[pri:11, instance:stage.HomescreenTestcases@4667ae56]" name="listAs_partner" duration-ms="85" started-at="2019-11-20T06:29:35Z" finished-at="2019-11-20T06:29:35Z">
+        <test-method status="PASS" signature="listAs_partner()[pri:11, instance:stage.HomescreenTestcases@4667ae56]" name="listAs_partner" duration-ms="93" started-at="2019-11-20T06:37:35Z" finished-at="2019-11-20T06:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listAs_partner -->
-        <test-method status="PASS" signature="footer_links()[pri:12, instance:stage.HomescreenTestcases@4667ae56]" name="footer_links" duration-ms="502" started-at="2019-11-20T06:29:35Z" finished-at="2019-11-20T06:29:36Z">
+        <test-method status="PASS" signature="footer_links()[pri:12, instance:stage.HomescreenTestcases@4667ae56]" name="footer_links" duration-ms="516" started-at="2019-11-20T06:37:35Z" finished-at="2019-11-20T06:37:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footer_links -->
