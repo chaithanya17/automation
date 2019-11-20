@@ -155,4 +155,87 @@ public class HomescreenTestcases {
 		boolean loadMore_button = driver.findElement(By.xpath("//button[contains(text(),'Load More')]")).isDisplayed();
 		System.out.println("Load more button is present: "+loadMore_button+"\n");
 	}
+	
+	@Test(priority = 8)
+	public void howTo_useBro4u() {
+		
+		List<WebElement> headingtitle = driver.findElements(By.xpath("//h2[@class='activity-head-text']"));
+		if (headingtitle.get(2).isDisplayed()) {
+			System.out.println(headingtitle.get(2).getText());
+		}else {
+			System.out.println("What’s happening around you is missing on the page");
+	}
+		List<WebElement> videos = driver.findElements(By.xpath("//div[@class='play-btn-container']"));
+		System.out.println("Total videos displaying on screen are: "+videos.size()+"\n");
+		boolean playbutton = driver.findElement(By.xpath("//img[@alt='Video Preview Button']")).isDisplayed();
+		System.out.println("Play button on video is present: "+playbutton+"\n");
+	}
+	
+	@Test(priority = 9)
+	public void why_bro4u() {
+		boolean whyBro4u_card = driver.findElement(By.xpath("//md-card[@layout-align='center center']")).isDisplayed();
+		System.out.println("Why Bro4u card is present: "+whyBro4u_card+"\n");
+		System.out.println(driver.findElement(By.xpath("//h2[@class='how-text-head ng-binding']")).getText()+"\n");
+		
+		List<WebElement> subtext = driver.findElements(By.xpath("//md-list-item[@role='listitem']"));
+		for (int i = 0; i < subtext.size(); i++) {
+			if (subtext.get(i).isDisplayed()) {
+				System.out.println(subtext.get(i).getText());
+			}
+		}
+	}
+	
+	@Test(priority = 10)
+	public void download_applink() {
+		
+		boolean app_download_component = driver.findElement(By.xpath("//app-download-component[@layout-align='center']")).isDisplayed();
+		System.out.println("App download component is present: "+app_download_component+"\n");
+		System.out.println(driver.findElement(By.xpath("//span[@class='bold-font font-white']")).getText()+"\n");
+		
+		boolean downloadApp_image = driver.findElement(By.xpath("//img[@alt='Download bro4u app']")).isDisplayed();
+		System.out.println("Download app image is present: "+downloadApp_image+"\n");
+		
+		List<WebElement> subtext = driver.findElements(By.xpath("//span[@class='bold-font-subContent font-white']"));
+		System.out.println(subtext.get(0).getText()+"\n");
+		boolean appstore_Dlink = driver.findElement(By.xpath("//img[@alt='Download App From App Store']")).isDisplayed();
+		System.out.println("App store download link is present: "+appstore_Dlink+"\n");
+		
+		boolean google_playstore_link = driver.findElement(By.xpath("//img[@alt='Download App From Play Store']")).isDisplayed();
+		System.out.println("Google playstore download link is present : "+google_playstore_link+"\n");
+		
+		System.out.println(subtext.get(1).getText());
+		boolean mobileNum_textbox = driver.findElement(By.id("connectionNumber")).isDisplayed();
+		System.out.println("Mobile number textbox under app download component is present: "+mobileNum_textbox+"\n");
+		
+		boolean getNow_button = driver.findElement(By.xpath("//button[contains(text(),'GET NOW')]")).isEnabled();
+		System.out.println("Get now button is enabled: "+getNow_button+"\n");
+	}
+	
+	@Test(priority = 11)
+	public void listAs_partner() {
+		boolean listas_partnerComp = driver.findElement(By.xpath("//div[@class='how-it-works become-partner']")).isDisplayed();
+		System.out.println("List As a partner component is Present: "+listas_partnerComp+"\n");
+		System.out.println(driver.findElement(By.xpath("//h2[contains(text(),'Are you a Service Professional?')]")).getText());
+		
+		boolean list_Aspartner_button = driver.findElement(By.xpath("//a[contains(text(),'List as Partner')]")).isEnabled();
+		System.out.println("List as a partner button is enabled: "+list_Aspartner_button+"\n");
+	}
+	
+	@Test(priority = 12)
+	public void footer_links() {
+		
+		boolean footer_logo = driver.findElement(By.id("footer_logo")).isDisplayed();
+		System.out.println("Footer logo is present: "+footer_logo+"\n");
+		
+			System.out.println("Total number of social links: "+driver.findElements(By.xpath("//a[@rel='nofollow']")).size()+"\n");
+		
+		List<WebElement> footer_links= driver.findElements(By.tagName("a"));
+		for (int i = 8; i < footer_links.size(); i++) {
+			System.out.println(footer_links.get(i).getText());
+		}
+		boolean copyright = driver.findElement(By.xpath("//div[@class='prop-info layout-padding ng-binding flex-sm-90 flex-md-90 flex-75']")).isDisplayed();
+		System.out.println("Copyright is displaying on screen: "+copyright+"\n");
+		System.out.println(driver.findElement(By.xpath("//div[@class='prop-info layout-padding ng-binding flex-sm-90 flex-md-90 flex-75']")).getText()+"\n");
+		driver.quit();
+	}
 }
